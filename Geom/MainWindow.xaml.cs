@@ -71,11 +71,11 @@ namespace Geom
                 }
                 if (((X_cord <= max_x) && (X_cord >= min_x)) && ((Y_cord <= max_y) && (Y_cord >= min_y)))
                 {
-                    MessageBox.Show("Перескаются");
+                    MessageBox.Show("Прямая и отрезок пересекаются", "Отчёт", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Хуй");
+                    MessageBox.Show("Прямая и отрезок не пересекаются!", "Отчёт", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 
             }
